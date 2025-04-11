@@ -1,0 +1,7 @@
+{
+    "python_version": "3.10.6",
+    "carla_version": "0.9.14",
+    "date": "2025-04-10",
+    "platform": "Ubuntu 24.04",
+    "description": "CARLA sensor simulation dataset with 2D projected bounding boxes."
+  }
