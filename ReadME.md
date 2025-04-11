@@ -12,9 +12,9 @@ pip install -r requirements.txt
 
 Open a terminal and launch CARLA:
 
-\`\`\`bash
+```bash
 ./CarlaUE4.sh
-\`\`\`
+```
 
 Make sure it’s running before moving forward.
 
@@ -31,22 +31,22 @@ This script captures:
 
 Run the script:
 
-\`\`\`bash
+```bash
 python sensor_capture.py
-\`\`\`
+```
 
 Let it run for a bit (~100–200 frames), then stop it with \`Ctrl+C\`.
 
 ✅ This will populate the \`output/\` directory with:
 
-\`\`\`
+```
 output/
   camera/
   bboxes/
   camera_transforms/
   imu.csv
   gps.csv
-\`\`\`
+```
 
 ---
 
@@ -60,13 +60,13 @@ This script:
 
 Run it with:
 
-\`\`\`bash
+```bash
 python export_dataset.py
-\`\`\`
+```
 
 🟢 Output will appear in: \`output/final_dataset/\`
 
-\`\`\`
+```
 output/final_dataset/
   images/
     000001.png
@@ -75,7 +75,7 @@ output/final_dataset/
     000001.json
     ...
   dataset_index.json
-\`\`\`
+```
 
 ---
 
